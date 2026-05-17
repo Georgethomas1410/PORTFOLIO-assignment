@@ -253,3 +253,126 @@ nav {
     border-top: 1px solid #1a1a1a;
     margin-top: 40px;
 }
+@media (max-width: 768px) {
+ 
+    /* Nav: shrink padding and text */
+    nav {
+        padding: 12px 18px;
+        border-radius: 20px;
+        margin: 8px;
+    }
+ 
+    .logo {
+        font-size: 18px;
+    }
+ 
+    .nav-links a {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+ 
+    /* Hero: stack image below text */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 24px;
+        gap: 30px;
+    }
+ 
+    .hero h1 {
+        font-size: 36px;
+    }
+ 
+    .hero img {
+        max-width: 220px;
+    }
+ 
+    /* Bento grid: 1 column */
+    .bento-grid {
+        grid-template-columns: 1fr;
+        padding: 16px 20px 30px;
+    }
+ 
+    .card1, .card2, .card3,
+    .card4, .card5, .card6 {
+        grid-column: 1;
+        grid-row: auto;
+    }
+ 
+    /* Sections: less side padding */
+    .section {
+        margin: 16px 12px;
+        padding: 20px;
+    }
+ 
+    .header h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+ 
+    /* Nav: hide link text, just show logo + 2 links */
+    nav {
+        padding: 10px 14px;
+        border-radius: 14px;
+        margin: 6px;
+    }
+ 
+    .nav-links a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+ 
+    /* Hero */
+    .hero {
+        padding: 30px 16px;
+    }
+ 
+    .hero h1 {
+        font-size: 28px;
+    }
+ 
+    .hero p {
+        font-size: 14px;
+    }
+ 
+    .hero img {
+        max-width: 180px;
+    }
+ 
+    /* item-top: stack title and year on small screens */
+    .item-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+ 
+    /* Sections */
+    .section {
+        margin: 12px 8px;
+        padding: 16px;
+    }
+ 
+    .section h2 {
+        font-size: 16px;
+    }
+ 
+    .header h1 {
+        font-size: 26px;
+    }
+ 
+    .header p {
+        font-size: 13px;
+    }
+ 
+    /* Cards */
+    .card {
+        padding: 18px;
+    }
+ 
+    .card h2 {
+        font-size: 17px;
+    }
+}
+ 
