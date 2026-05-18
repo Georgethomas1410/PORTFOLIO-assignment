@@ -162,16 +162,6 @@ nav {
     margin-top: 6px !important;
 }
 
-.year {
-    font-size: 12px;
-    color: #7c6cfc;
-    background-color: #1e1a3a;
-    padding: 3px 10px;
-    border-radius: 20px;
-    white-space: nowrap;
-}
-
-/* SKILL TAGS */
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -255,7 +245,6 @@ nav {
 }
 @media (max-width: 768px) {
  
-    /* Nav: shrink padding and text */
     nav {
         padding: 12px 18px;
         border-radius: 20px;
@@ -271,7 +260,6 @@ nav {
         font-size: 13px;
     }
  
-    /* Hero: stack image below text */
     .hero {
         flex-direction: column;
         text-align: center;
@@ -312,7 +300,6 @@ nav {
 
 @media (max-width: 480px) {
  
-    /* Nav: hide link text, just show logo + 2 links */
     nav {
         padding: 10px 14px;
         border-radius: 14px;
@@ -324,7 +311,6 @@ nav {
         font-size: 12px;
     }
  
-    /* Hero */
     .hero {
         padding: 30px 16px;
     }
@@ -341,14 +327,12 @@ nav {
         max-width: 180px;
     }
  
-    /* item-top: stack title and year on small screens */
     .item-top {
         flex-direction: column;
         align-items: flex-start;
         gap: 6px;
     }
  
-    /* Sections */
     .section {
         margin: 12px 8px;
         padding: 16px;
@@ -366,7 +350,6 @@ nav {
         font-size: 13px;
     }
  
-    /* Cards */
     .card {
         padding: 18px;
     }
